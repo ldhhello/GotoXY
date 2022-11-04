@@ -22,3 +22,15 @@ Written by Donghyun Lee (KDMHS 21WP)
 - Sleep
 
 - _kbhit, _getch
+
+
+# How should I use this?
+
+- First, you should change 
+   #include <Windows.h>
+to
+   #include "Windows.h"
+   
+- You should replace every system("cls") to system("clear")
+
+- system("mode con ....") is not available on posix terminal. you should erase that. 
